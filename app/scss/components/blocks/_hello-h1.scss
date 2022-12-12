@@ -1,0 +1,21 @@
+.hello-h1 {
+   &__title {
+      color: #fff;
+      margin-bottom: 9px;
+      letter-spacing: -0.002em;
+      @media (min-width: 1200px) {
+         margin-bottom: 16px;
+      }
+   }
+   &__text {
+      color: #fff;
+      margin-bottom: 22px;
+      @media (min-width: 1200px) {
+         margin-bottom: 40px;
+      }
+   }
+   &__buttons {
+      display: flex;
+      column-gap: 12px;
+   }
+}
